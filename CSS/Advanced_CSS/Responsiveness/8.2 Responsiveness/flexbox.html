@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS Flexbox</title>
+  <style>
+    .flex-container {
+      display: flex;
+    }
+
+    .card {
+      background: blue;
+      border: 30px solid white;
+      height: 100px;
+      flex: 1;
+    }
+
+    .first {
+      flex: 2;
+    }
+
+    .second {
+      flex: 0.5;
+    }
+
+    /* My defined flexbox */
+    .flex-2 {
+      display: flex;
+    }
+
+    .box {
+      background-color: brown;
+      border: 10px solid black;
+      height: 200px;
+      flex: 1;
+      /* flex-direction: column-reverse; */
+    }
+
+    .vee1 {
+      flex: 2;
+    }
+    
+    .vee2 {
+      flex: 0.5;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>CSS Flexbox</h1>
+  <div class="flex-container">
+    <div class="first card"></div>
+    <div class="second card"></div>
+    <div class="card"></div>
+    <div class="card"></div>
+  </div>
+
+  <h2>My Flexbox</h2>
+  <div class="flex-2">
+    <div class="vee1 box"></div>
+    <div class="vee2 box"></div>
+    <div class="box"></div>
+  </div>
+
+</body>
+
+</html>
