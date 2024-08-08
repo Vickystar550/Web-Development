@@ -1,0 +1,19 @@
+.container {
+    display: flex;
+    gap: 30px;
+    border: 10px solid blue;
+    flex-direction: column;
+    background-color: aqua;
+}
+
+.one {
+    border: 5px solid red;
+}
+
+.two {
+    border: 5px solid green;
+}
+
+.three {
+    border: 5px solid black;
+}

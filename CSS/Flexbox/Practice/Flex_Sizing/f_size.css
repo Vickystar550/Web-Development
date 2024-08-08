@@ -1,0 +1,27 @@
+div {
+    display: flex;
+    gap: 10px;
+}
+
+.one {
+    background-color: red;
+    flex-basis: 150px;
+    flex-grow: 0;
+    flex-shrink: 1;
+
+}
+
+.two {
+    background-color: orange;
+    flex-basis: 150px;
+}
+
+.three {
+    background-color: yellow;
+    flex-basis: 150px;
+}
+
+.four {
+    background-color: green;
+    flex-basis: 150px;
+}
